@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản</title>
+    <link href="css.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<form id="form1">
+<fieldset>
+    <h2 style="background-color: orange;" id="h2">Sở thích của bạn</h2>
+
+<label>Họ Và Tên</label>
+<input type="text" name="yourname"/><br><br>
+<label>Email</label>
+<input style="margin-left:33px" type="text" name="email"/><br><br>
+<label>Sở thích </label>
+    <label class="label1"><input type="checkbox" name="hobby"> Thể Thao </label>
+    <label class="label1"> <input type="checkbox" name="hobby"> Âm Nhạc </label>
+    <label class="label1"> <input style="margin-left: 15px" type="checkbox" name="hobby"> Đọc Sách</label>
+    <br><br>
+    <label class="label1"><input style="margin-left: 61px" type="checkbox" name="hobby"> Lướt Web </label>
+    <label class="label1"><input style="margin-left: 2px" type="checkbox" name="hobby"> Chơi Game </label>
+    <label class="label1"><input type="checkbox" name="hobby"> Điện Ảnh </label>
+    <br><br>
+    <label class="label1"><input style="margin-left: 60px" type="checkbox" name="hobby"> Du lịch</label>
+    <label class="label1"><input style="margin-left: 19px" type="checkbox" name="hobby"> Xem Phim</label>
+<br><br>
+<input type="submit" value="Gửi Thông Tin">
+<input type="reset" value="Nhập lại">
+</fieldset>
+</form>
+<form id="form2">
+    <fieldset>
+    <h3 style="background-color: aqua" id="h3">ĐĂNG KÝ HỌC VIÊN</h3>
+    <label> Họ và Tên </label>
+    <input style="width: 250px" type="text" name="yourname"/>
+        <br><br>
+        <label> Ngày Sinh </label>
+        <input type="text" name="ngaysinh"/> <br><br>
+        <label>Giới Tính</label>
+        <input type="radio" name="gender"/> male
+        <input type="radio" name="gender"/> female
+        <br><br>
+        <div style="display: flex">
+            <label style="display: inline-block;align-self: start;">Địa chỉ:</label>
+            <textarea style="margin-left: 20px" rows="3" cols="20" name="address"></textarea>
+        </div>
+        <input type="submit" value="Đăng Ký">
+        <input type="reset" value="Nhập Lại">
+
+    </fieldset>
+</form>
+
+</body>
+</html>

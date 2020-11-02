@@ -1,0 +1,20 @@
+#h2 {
+    text-align: center;
+    color: white;
+    background-color: orange;
+}
+label{
+    color: blue;
+}
+#form1 {
+    padding: 0px 300px;
+}
+.label1{
+    color:orange;
+}
+#form2 fieldset{
+    background-color:#fee37d;
+}
+#form2 {
+    padding: 0px 200px;
+}
