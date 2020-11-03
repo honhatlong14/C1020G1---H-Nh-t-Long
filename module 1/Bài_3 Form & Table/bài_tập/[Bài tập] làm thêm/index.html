@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<form id="form">
+    <fieldset>
+        <h3 style="background-color: pink">ĐĂNG KÝ HỌC VIÊN</h3>
+        <label> Họ và Tên </label>
+        <input style="width: 250px" type="text" name="yourname"/>
+        <br><br>
+        <label> Ngày Sinh </label>
+        <input type="text" name="ngaysinh"/> <br><br>
+        <label>Giới Tính</label>
+        <input type="radio" name="gender"/> male
+        <input type="radio" name="gender"/> female
+        <br><br>
+        <label>Lớp</label>
+        <select style="margin-left: 40px">
+            <option>-chọn lớp-</option>
+            <option>lớp 1</option>
+            <option>lớp 2</option>
+            <option>lớp 3</option>
+        </select> <br><br>
+        <div style="display: flex">
+            <label style="display: inline-block;align-self: start;">Địa chỉ:</label>
+            <textarea style="margin-left: 20px" rows="3" cols="20" name="address"></textarea>
+        </div>
+        <input type="submit" value="Đăng Ký">
+        <input type="reset" value="Nhập Lại">
+
+    </fieldset>
+</form>
+</body>
+<form>
+    <h3 style="margin-left: 625px" id="h3"> A Test table with merged cells </h3>
+    <table border="1px" align="center" >
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2"> Average</th>
+            <th rowspan="2"> Red eyes</th>
+        </tr>
+        <tr>
+            <th> hight </th>
+            <th> weight</th>
+        </tr>
+        <tr>
+            <th> Male</th>
+            <th> 1.9</th>
+            <th> 0.003</th>
+            <th> 40%</th>
+        </tr>
+        <tr>
+            <th> Female</th>
+            <th> 1.7</th>
+            <th> 0.002</th>
+            <th> 43%</th>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
