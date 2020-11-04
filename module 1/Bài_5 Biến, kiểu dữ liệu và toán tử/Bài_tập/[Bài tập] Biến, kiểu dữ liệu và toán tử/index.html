@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> tính điểm</title>
+</head>
+<body>
+<script>
+    let inputphysical;
+    let inputchemistry;
+    let inputbiological;
+
+    inputphysical = prompt('score môn vật lý');
+    inputchemistry = prompt('score môn hóa học');
+    inputbiological = prompt('score môn sinh học');
+
+
+    let physical = parseInt(inputphysical);
+    let chemistry = parseInt(inputchemistry);
+    let biological = parseInt(inputbiological);
+    let total = (physical+chemistry+biological);
+    let evsrage = total/3;
+    document.write( "total is "+total);
+    document.write("<br>");
+    document.write("evsrage is" + evsrage);
+</script>
+</body>
+</html>
