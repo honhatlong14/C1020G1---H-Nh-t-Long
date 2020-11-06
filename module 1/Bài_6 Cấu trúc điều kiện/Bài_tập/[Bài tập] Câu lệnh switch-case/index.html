@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Câu lệnh switch-case</title>
+</head>
+<body>
+    <input id="so"  type="text" name="tinhngay" />
+    <button type="button"  onclick="ngay()">tinh so ngay</button>
+<script>
+    function ngay() {
+        let thang= parseInt(document.getElementById("so").value);
+        switch (thang) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12: document.write("cos= 31 ngay");
+            break;
+            case 4:
+            case 6:
+            case 9:
+            case 11: document.write("co 30 ngay");
+            break;
+            case 2: document.write("co 28 ngay hoc 29 ngay");
+            break;
+        }
+    }
+</script>
+</body>
+</html>

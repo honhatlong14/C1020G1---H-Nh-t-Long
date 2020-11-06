@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78951a27-3092-48ac-b93f-438efe6e5720" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee.html" beforeDir="false" />
+    <list default="true" id="9773a252-03a1-46a4-ac57-6bbe9ddd943c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../[Bài tập] Tính chỉ số cân nặng của cơ thể/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Thực_hành/[Thực hành] Luyện tập với toán tử ba ngôi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thực_hành/[Thực hành] Luyện tập với toán tử ba ngôi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Thực_hành/[Thực hành] Luyện tập với toán tử ba ngôi/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Thực_hành/[Thực hành] Luyện tập với toán tử ba ngôi/employee.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectId" id="1jrRRgMCqWgChJZ4yZbgmT6UvnR" />
+  <component name="ProjectId" id="1juKU062oqyLyGzgkwIjbR4kIsg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,22 +36,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Thực_hành/[Thực hành] Luyện tập với cấu trúc switch-case/sign.html" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="78951a27-3092-48ac-b93f-438efe6e5720" name="Default Changelist" comment="" />
-      <created>1604560217677</created>
+      <changelist id="9773a252-03a1-46a4-ac57-6bbe9ddd943c" name="Default Changelist" comment="" />
+      <created>1604648548177</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604560217677</updated>
-      <workItem from="1604560219925" duration="2758000" />
-      <workItem from="1604563099260" duration="43000" />
-      <workItem from="1604563198636" duration="4429000" />
-      <workItem from="1604626806839" duration="11826000" />
-      <workItem from="1604647681241" duration="108000" />
+      <updated>1604648548177</updated>
+      <workItem from="1604648549565" duration="2066000" />
     </task>
     <servers />
   </component>
@@ -57,17 +56,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1604647788887">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1604650614151">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604647788887" />
-    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1604563027323">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1604563027323" />
-    <state x="93" y="93" width="1350" height="638" key="dock-window-2" timestamp="1604563027323">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="93" y="93" width="1350" height="638" key="dock-window-2/0.0.1536.824@0.0.1536.824" timestamp="1604563027323" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604650614151" />
   </component>
 </project>
