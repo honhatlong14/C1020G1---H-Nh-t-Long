@@ -45,45 +45,45 @@
     </tr>
     <tr>
         <td>Type of Customer:
-        <td><select id=" type">
+        <td><select id="type">
         <option name="name1" />Diamond
         <option name="name2" />Platinum
-        <option name="name1" />Gold
-        <option name="name1" />Silver
+        <option name="name3" />Gold
+        <option name="name4" />Silver
     </select></td>
     </tr>
     <tr>
         <td>Discount:</td>
-        <td><input class="dis" type="text" name="address"></td>
+        <td><input id="dis" type="text" name="address"></td>
     </tr>
     <tr>
         <td>Quantity included:</td>
-        <td><input class="ql" type="text" name="address"></td>
+        <td><input id="ql" type="text" name="address"></td>
     </tr>
     <tr>
         <td>RentDays:</td>
-        <td><input class="rent" type="text" name="address"> </td>
+        <td><input id="rent" type="text" name="address"> </td>
     </tr>
     <tr>
         <td>type of service:
         <td><select id="ser">
-        <option name="name1" />Villa
-        <option name="name2" />House
-        <option name="name1" />Room
+        <option name="name5" />Villa
+        <option name="name6" />House
+        <option name="name7" />Room
     </select></td>
     </tr>
     <tr>
     <td>type of Room:
 
         <td><select id="room">
-        <option name="name1" />Vip
-        <option name="name2" />Business
-        <option name="name1" />Normal
+        <option name="name8" />Vip
+        <option name="name9" />Business
+        <option name="name0" />Normal
     </select>
     </td>
     </tr>
     <tr>
-        <td><input class=" b" type="reset" value="nhaplai" >
+        <td><input id=" b" type="reset" value="nhaplai" >
             <input id=" a" type="button" value="gui" onclick="c()">
         </td>
     </tr>
@@ -91,9 +91,28 @@
 <script>
     function c() {
             let name = document.getElementById("name").value;
+            let number = document.getElementById("number").value;
+            let date = document.getElementById("date").value;
+            let mail = document.getElementById("mail").value;
+            let adr = document.getElementById("adr").value;
+            let type = document.getElementById("type").value;
+            let dis = document.getElementById("dis").value;
+            let ql = document.getElementById("ql").value;
+            let rent = document.getElementById("rent").value;
+            let ser = document.getElementById("ser").value;
+            let room = document.getElementById("room").value;
             document.write("name:"+name+ '<br>' );
+            document.write("Id Number:"+number+ '<br>' );
+            document.write("Birthday:"+ date+ '<br>' );
+            document.write("Email:"+mail+ '<br>' );
+            document.write("Address:"+adr+ '<br>' );
+            document.write("Type of Customer:"+type+ '<br>' );
+            document.write("Discount:"+dis+ '<br>' );
+            document.write("Quantity included:"+ql+ '<br>' );
+            document.write("RentDays::"+rent+ '<br>' );
+            document.write("type of service:"+ser+ '<br>' );
+            document.write("type of Room:"+room+ '<br>' );
     }
-
 </script>
 </body>
 </html>
