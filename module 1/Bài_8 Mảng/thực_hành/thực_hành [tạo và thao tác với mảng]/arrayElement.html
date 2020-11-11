@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo và thao tác với </title>
+    <style>
+        body{padding-top: 50px}
+    </style>
+</head>
+<body>
+    <input id="value" type="text" name="nhap">
+    <input id="add" type="button" value="add" onclick="add_element();">
+    <input id="display" type="button" value="display" onclick="display_element();" >
+    <div id="result"></div>
+<script>
+    let x = 0;
+    let array = Array();
+    function add_element() {
+        array [x] = document.getElementById('value').value;
+        alert("Element:" + array[x + "added aat index" + x]);
+        x++;
+        document.getElementById("value").value;
+    }
+    function display_element() {
+        let e = "<hr/>";
+        for (i = 0; i< array.length; i++){
+            e+= "element" + i + "=" + array[i] + "<br/>";
+        }
+        document.getElementById("result").innerHTML= e;
+    }
+</script>
+</body>
+</html>
