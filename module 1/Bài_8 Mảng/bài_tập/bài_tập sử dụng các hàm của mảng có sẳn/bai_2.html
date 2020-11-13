@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai_2</title>
+</head>
+<body>
+<script>
+    let number = [0,2,5,4,6,8];
+    let a = [number[0]];
+    for (let i= 1; i<number.length; i++){
+        if (number[i]%2==0 && number[i-1]%2==0){
+            a.push("-", number[i]);
+        }else {
+            a.push(number[i]);
+        }
+    }
+    document.writeln(a.join(""));
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = [];
+    let num = prompt("nhap aray:");
+    for(let i = 0; i< num;i++){
+        array[i] = prompt("nhap :");
+    }
+    let vInt = parseInt(prompt("nhap v number "));
+    let test = false;
+    for(let i = 0; i < array.length; i++){
+        if(vInt == array[i]) {
+            test  = true;
+        }
+    }
+    if(test ==  true){
+        document.write(" V la array");
+    }
+    else{
+        document.write(" V khong phai la array");
+    }
+</script>
+</body>
+</html>

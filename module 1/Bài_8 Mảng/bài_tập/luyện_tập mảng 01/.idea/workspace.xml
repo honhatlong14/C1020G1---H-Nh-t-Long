@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8481ea43-233d-4e2c-a1ee-49a5b93fe8b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../bai_tập từ điển/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bài_tập sử dụng các hàm của mảng có sẳn/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bài_tập sử dụng các hàm của mảng có sẳn/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bài_tập sử dụng các hàm của mảng có sẳn/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1kDBBWmMRauGUwh1zaOPqXNariF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8481ea43-233d-4e2c-a1ee-49a5b93fe8b3" name="Default Changelist" comment="" />
+      <created>1605225146700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605225146700</updated>
+      <workItem from="1605225147809" duration="743000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai_4</title>
+</head>
+<body>
+<script>
+    let str = prompt("nhap tu can tim: ");
+    let eng = ['thanks','sorry', 'love', 'beautyful', 'amazing'];
+    let viet = ['cam on', 'xin loi', 'yeu', 'dep', 'tuyet voi'];
+    //let count = 0;
+    //let test =false;
+    for(let i= 0; i<eng.length; i++){
+        if(str == eng[i] ){
+            alert(viet[i]);
+            //test =true;
+            //count++;
+        }else{
+            alert('khong hop le');
+            break;
+        }
+    }
+    // if(test == false){
+    //     alert('khong hop le');
+    // }
+</script>
+</body>
+</html>

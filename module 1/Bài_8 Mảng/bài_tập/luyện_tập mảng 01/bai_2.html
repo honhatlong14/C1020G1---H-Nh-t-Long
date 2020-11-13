@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = [2,11,1,5,14,6,24,15,35,3,9,4,7,8];
+    let max = num[0];
+    let sum=0
+    for (let i =1; i<num.length; i++){
+        if (max < num[i]){
+            max = num[i];
+        } sum += num[i]/num.length;
+    }
+    alert(sum);
+    alert(max);
+</script>
+</body>
+</html>
