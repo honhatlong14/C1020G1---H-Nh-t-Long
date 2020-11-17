@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai_4</title>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt("nhap so thu 1: "));
+        let b = parseInt(prompt("nhap so thu 2: "));
+        let c = parseInt(prompt("nhap so thu 3: "));
+        songuyen();
+        function songuyen() {
+            if (a<b && a<c){
+                document.writeln("so nho nhat la: "+a);
+            }else if (b<a && b<c){
+                document.writeln("so nho nhat la: "+ b);
+            }else {
+                document.writeln("so nho nhat la: "+c);
+            }
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai_1</title>
+</head>
+<body>
+    <script>
+        function isPrime(num) {
+            let test = true;
+            if(num >1){
+                let i;
+                for ( i = 2;i < num ;i++){
+                    if(num%i==0 ) {
+                        test = false;
+                        break;
+                    }
+                }
+            }
+            return test;
+        }
+       for(let j = 2; j <10000;j++){
+           let check = isPrime(j);
+           if(check){
+               document.writeln(j);
+           }
+       }
+
+    </script>
+</body>
+</html>

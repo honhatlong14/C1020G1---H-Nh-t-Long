@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai_5</title>
+</head>
+<body>
+    <script>
+
+        let a = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe','Regulus'];
+        let b = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+        chomsao();
+        function chomsao() {
+            let str = prompt("nhap ngoi sao: ");
+            for (i=0; i<a.length; i++){
+                if (str == a[i]){
+                    document.writeln(b[i]);
+                    break;
+                }else {
+                    document.writeln("khong hop le ")
+                    break;
+                }
+            }
+        }
+    </script>
+</body>
+</html>
