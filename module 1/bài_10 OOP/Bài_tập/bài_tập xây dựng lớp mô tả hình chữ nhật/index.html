@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hinh_chu_nhat</title>
+</head>
+<body>
+    <script>
+
+        class Rectangle{
+            constructor(dai,rong) {
+                this.long = dai;
+                this.wide = rong;
+            }
+            getLong(){
+                return this.long;
+            }
+            getWide(){
+                return this.wide;
+            }
+            getArea(){
+                return this.long * this.wide;
+            }
+            getRadius(){
+                return (this.long + this.wide)/2;
+            }
+        }
+        let rectangle = new Rectangle(10,20);
+        let long = rectangle.getLong();
+        let wide = rectangle.getWide();
+        let area = rectangle.getArea();
+        let radius = rectangle.getRadius();
+        alert("area: " + area+ " radius: "+radius+ " dai: "+ long+ " rong: "+ wide);
+
+    </script>
+</body>
+</html>
