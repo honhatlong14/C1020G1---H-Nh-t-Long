@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e92c674-2451-4929-bfbb-ec2302897f86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bài_tập/bài_tập xây dựng lớp mô tả Temperature/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài_tập/bài_tập xây dựng lớp mô tả hình chữ nhật/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài_tập/bài_tập xây dựng lớp mô tả điện thoại/dien_thoai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thực_hành/thực_hành xây dựng lớp date/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thực_hành/thực_hành xây dựng lớp hình tròn/hinh_tron.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 3/.idea/thư mục không có tiêu đề 3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 3/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 3/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 4/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 4/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 4/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 4/.idea/thư mục không có tiêu đề 4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 4/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 4/feet_meters.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 5/bai_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 5/bai_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 5/bai_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 5/bai_4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 5/bai_5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 6/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 6/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 6/.idea/thư mục không có tiêu đề 6.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 6/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 6/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 6/bai_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 6/bai_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 6/bai_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 6/bai_4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 6/bai_5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bài_9 hàm/Bài_tập/thư mục không có tiêu đề 6/bai_6.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bài_tập/bài_tập game đơn giản-di chuyển đối tượng/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thực_hành/thực_hành xây dựng lớp mô phỏng sự hoạt động của đèn pin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +46,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605585898813</updated>
       <workItem from="1605585901075" duration="6490000" />
+      <workItem from="1605670137917" duration="3675000" />
+      <workItem from="1605748578476" duration="1097000" />
     </task>
     <servers />
   </component>

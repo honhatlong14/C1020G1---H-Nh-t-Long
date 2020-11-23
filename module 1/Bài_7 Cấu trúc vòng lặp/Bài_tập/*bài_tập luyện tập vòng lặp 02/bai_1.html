@@ -6,11 +6,23 @@
 </head>
 <body>
     <script>
-        for (let i= 0; i<5; i++){
-            for (let j = 0; j< 4; j++){
-             document.writeln("*")   ;
-            }
-            document.writeln("<br>");
+        let count = prompt("nhap so luong fbns can hien thi: ");
+        let a = 0;
+        let b = 1;
+        let x = 1;
+        for (let i= 1; i<count; i++){
+            a = 0;
+            b = 1;
+            x = 1;
+            if (i === 0){
+                document.writeln(i);
+            }else {
+                for (let j =2; j<i;j++){
+                    a = b;
+                    b = x;
+                    x = a + b;
+                }
+            }document.writeln(x);
         }
     </script>
 </body>
