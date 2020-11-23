@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adb3523a-3d9a-4baa-8f86-11eead4c433d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Bài_6 Cấu trúc điều kiện/Bài_tập/bài tập luyện tập cấu trúc điều kiện 01/lam_lai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bài_6 Cấu trúc điều kiện/Bài_tập/bài tập luyện tập cấu trúc điều kiện 02/Bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bài_6 Cấu trúc điều kiện/Bài_tập/bài tập luyện tập cấu trúc điều kiện 02/Bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bài_6 Cấu trúc điều kiện/Bài_tập/bài tập luyện tập cấu trúc điều kiện 02/Bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bài_6 Cấu trúc điều kiện/Bài_tập/bài tập luyện tập cấu trúc điều kiện 02/Bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bài_6 Cấu trúc điều kiện/Bài_tập/bài tập luyện tập cấu trúc điều kiện 02/Bai_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bài_6 Cấu trúc điều kiện/Bài_tập/bài tập luyện tập cấu trúc điều kiện 02/Bai_9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bài_6 Cấu trúc điều kiện/Bài_tập/bài tập luyện tập cấu trúc điều kiện 02/bai_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bài_6 Cấu trúc điều kiện/Bài_tập/bài tập luyện tập cấu trúc điều kiện 02/bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bài_tập/luyện_tập mảng 2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bài_10 OOP/Bài_tập/bài_tập game đơn giản-di chuyển đối tượng/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bài_10 OOP/Thực_hành/thực_hành xây dựng lớp mô phỏng sự hoạt động của đèn pin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bài_10 OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bài_10 OOP/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bài_tập/luyện_tập mảng 02/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bài_tập/luyện_tập mảng 02/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bài_tập/luyện_tập mảng 02/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bài_tập/luyện_tập mảng 02/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bài_tập/luyện_tập mảng 02/bai_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bài_tập/luyện_tập mảng 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bài_tập/luyện_tập mảng 02/bai_1 .html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +52,18 @@
       <updated>1605509330282</updated>
       <workItem from="1605509331410" duration="25000" />
       <workItem from="1606095014014" duration="139000" />
+      <workItem from="1606101130922" duration="3002000" />
+      <workItem from="1606114458825" duration="2548000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1606115504183">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606115504183" />
   </component>
 </project>

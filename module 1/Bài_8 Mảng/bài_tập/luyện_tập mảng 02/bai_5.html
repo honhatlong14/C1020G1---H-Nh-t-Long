@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai_5</title>
+</head>
+<body>
+    <script>
+        let str = 'ho van long';
+        let str1= 'ho nha long';
+        let test = true;
+        for (let i =0; i<str.length;i++){
+            for (let j = 0; j<str1.length;j++){
+                if (str[i] !== str1[j]){
+                    test = false;
+                    break;
+                }
+            }
+        }if (test){
+            alert('hai chuoi giong nhau');
+        }else {
+            alert('hai chuoi khac nhau')
+        }
+    </script>
+</body>
+</html>
