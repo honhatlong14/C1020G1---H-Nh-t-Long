@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let name = "Thế Anh";
+    let email = "123@gmail.com";
+    let phone ="123456789";
+    let nationality ="Việt Nam";
+    let city = "Đà Nẵng";
+    let chooseSv = "Villa";
+    let chooseRoom ="Vip";
+    let typeCustomer ="Diamond";
+    let discount =10;
+    let quantityIncluded =10 ;
+    let rentDays = 1 ;
+
+
+
+    let choose = parseInt(prompt("1.Hiển thị thông tin khách hàng." + "\n" +
+                                "2.Chỉnh sửa thông tin khách hàng." + "\n" +
+                                "3.Hiển thị giá sau khi đã giảm."));
+    switch (choose) {
+        case 1 : {
+            alert("Name :" + name +"\n" +
+                  "Email :" + email +"\n" +
+                  "Phone :" + phone +"\n" +
+                  "Nationality :" + nationality +"\n" +
+                  "City :" + city +"\n" +
+                  "ChooseSv :" + chooseSv +"\n" +
+                  "ChooseRoom :" + chooseRoom +"\n" +
+                  "TypeCustomer :" + typeCustomer +"\n" +
+                  "Discount :" + discount +"\n" +
+                  "QuantityIncluded :" + quantityIncluded +"\n" +
+                  "Rentdays :" + rentDays );
+            break;
+        }
+        case  2 : {
+            let chooseEdit = parseInt(prompt("1.Name :" + name +"\n" +
+                "2.Email :" + email +"\n" +
+                "3.Phone :" + phone +"\n" +
+                "4.Nationality :" + nationality +"\n" +
+                "5.City :" + city +"\n" +
+                "6.ChooseSv :" + chooseSv +"\n" +
+                "7.ChooseRoom :" + chooseRoom +"\n" +
+                "8.TypeCustomer :" + typeCustomer +"\n" +
+                "9.Discount :" + discount +"\n" +
+                "10.QuantityIncluded :" + quantityIncluded +"\n" +
+                "11.Rentdays :" + rentDays ));
+            switch (chooseEdit) {
+                    case 1 : {
+                        name = prompt("Enter the name");
+                        break;
+                    }case 2 : {
+                        email =prompt("Enter the email");
+                        break;
+                    }case 3 : {
+                        phone =prompt("Enter the phone number");
+                        break ;
+                    }case 4 : {
+                        nationality =prompt("Enter the nationality");
+                        break;
+                    }case  5 : {
+                        city =prompt("Enter the city");
+                        break ;
+                    }case 6 : {
+                        chooseSv =prompt("Enter the servies");
+                        break;
+                    }case 7 : {
+                        chooseRoom =prompt("Enter the type rooms");
+                        break;
+                    }case 8 : {
+                        discount = prompt("Enter the discount");
+                        break;
+                    }case 9 : {
+                        quantityIncluded = prompt("Enter the quantityIncluded");
+                        break;
+                    }case 10 : {
+                        rentDays =prompt("Enter the rentdays");
+                        break;
+                    }
+                    default :{
+                        alert("Failed");
+                    }
+
+            }
+            alert("Name :" + name +"\n" +
+                "Email :" + email +"\n" +
+                "Phone :" + phone +"\n" +
+                "Nationality :" + nationality +"\n" +
+                "City :" + city +"\n" +
+                "ChooseSv :" + chooseSv +"\n" +
+                "ChooseRoom :" + chooseRoom +"\n" +
+                "TypeCustomer :" + typeCustomer +"\n" +
+                "Discount :" + discount +"\n" +
+                "QuantityIncluded :" + quantityIncluded +"\n" +
+                "Rentdays :" + rentDays );
+            break;
+        }
+        default : {
+            alert("Sự lựa chọn của bạn không có trong menu");
+        }
+        case 3 : {
+            let money = 0;
+            if (chooseSv === "Villa"){
+                money = 500 ;
+            }else if (chooseSv === "House"){
+                money = 300 ;
+            }else  if (chooseSv === "Room"){
+                money = 100 ;
+            }
+            let temp = 0;
+            if (city === "Đà Nẵng"){
+                temp += 20 ;
+            }else if (city ==="Huế"){
+                temp += 10 ;
+            }else  if (city ==="Quảng Nam"){
+                temp +=5 ;
+            }
+            if (rentDays > 7) {
+                temp += 30;
+            }else if (rentDays > 5){
+                temp += 20;
+            }else  if (rentDays > 2){
+                temp += 10;
+            }
+            if (typeCustomer === "Diamond"){
+                temp +=15;
+            }else if (typeCustomer === "Platium"){
+                temp +=10;
+            }else if (typeCustomer === "Gold") {
+                temp += 5;
+            }else if (typeCustomer === "Silver") {
+                temp += 2;
+            }else if (typeCustomer === "Member"){
+                team += 0;
+            }
+            alert("Total pay: " +(money*rentDays-temp));
+            break;
+
+        }
+    }
+</script>
+</body>
+</html>
